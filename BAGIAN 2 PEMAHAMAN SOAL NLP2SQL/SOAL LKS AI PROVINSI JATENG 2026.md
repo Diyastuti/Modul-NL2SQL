@@ -12,7 +12,7 @@ Sistem ini disebut **NLP-to-SQL**, yaitu sebuah aplikasi web yang mengubah perta
 
 ## Ketentuan Umum
 
-1. Peserta diminta membangun sebuah aplikasi web NLP-to-SQL secara penuh, menggunakan sumber data pada link terlampir.
+1. Peserta diminta membangun sebuah aplikasi web NLP-to-SQL secara penuh, menggunakan sumber data pada link terlampir (file database `universitas_lks_2026-04-12.sql` bisa kalian akses di file folder ini).
 2. Pengembangan backend, integrasi dengan layanan AI, hingga pembuatan antarmuka pengguna harus dapat dijelaskan peserta kepada tim juri.
 3. Aplikasi harus mampu menerima pertanyaan dalam Bahasa Indonesia, menerjemahkannya menjadi query SQL menggunakan pendekatan NLP2SQL yang paling dirasa efektif dan efisien, kemudian menampilkannya dalam bentuk tabel, grafik, maupun jenis representasi tergantung jenis data yang dikembalikan.
 4. Struktur Database:
