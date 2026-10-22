@@ -38,7 +38,7 @@ Teknologi ini memanfaatkan **Artificial Intelligence (AI)** atau kecerdasan buat
 | Natural Language Processing | Bahasa sehari-hari yang biasa digunakan manusia, seperti “Tampilkan semua siswa kelas 10” |
 | SQL | Bahasa khusus yang digunakan untuk mengakses dan mengelola database |
 
-### Contoh NL2SQL
+### Contoh NLP2SQL
 
 | Bahasa Manusia | SQL |
 |---|---|
@@ -46,7 +46,7 @@ Teknologi ini memanfaatkan **Artificial Intelligence (AI)** atau kecerdasan buat
 | “Cari siswa yang berumur 16 tahun” | `SELECT * FROM siswa WHERE umur = 16;` |
 | “Hitung jumlah buku” | `SELECT COUNT(*) FROM buku;` |
 
-Dengan NL2SQL, pengguna tidak perlu lagi menghafal sintaks SQL karena sistem akan membuatkannya secara otomatis.
+Dengan NLP2SQL, pengguna tidak perlu lagi menghafal sintaks SQL karena sistem akan membuatkannya secara otomatis.
 
 ---
 
@@ -104,9 +104,9 @@ Matplotlib digunakan untuk membuat grafik atau visualisasi data seperti grafik b
 
 ---
 
-## 1.5. Cara Kerja NL2SQL
+## 1.5. Cara Kerja NLP2SQL
 
-Berikut adalah proses kerja sistem NL2SQL dari awal sampai akhir:
+Berikut adalah proses kerja sistem NLP2SQL dari awal sampai akhir:
 
 | Langkah | Penjelasan |
 |---|---|
