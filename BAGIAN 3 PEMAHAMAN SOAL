@@ -1,0 +1,35 @@
+# Soal LKS — Bidang IT: Artificial Intelligence & Web Development
+
+**Waktu:** 14–15 April 2026
+
+## Pengantar Soal
+
+Universitas LKS Jawa Tengah sedang mengembangkan sistem informasi akademik berbasis kecerdasan buatan.
+
+Salah satu fitur yang dibutuhkan adalah kemampuan bagi staf administrasi untuk mengajukan pertanyaan dalam Bahasa Indonesia dan langsung mendapatkan data dari database tanpa harus menguasai SQL.
+
+Sistem ini disebut **NLP-to-SQL**, yaitu sebuah aplikasi web yang mengubah pertanyaan alami menjadi query SQL secara otomatis menggunakan bantuan AI, kemudian menampilkan hasilnya secara visual kepada pengguna.
+
+## Ketentuan Umum
+
+1. Peserta diminta membangun sebuah aplikasi web NLP-to-SQL secara penuh, menggunakan sumber data pada link terlampir.
+2. Pengembangan backend, integrasi dengan layanan AI, hingga pembuatan antarmuka pengguna harus dapat dijelaskan peserta kepada tim juri.
+3. Aplikasi harus mampu menerima pertanyaan dalam Bahasa Indonesia, menerjemahkannya menjadi query SQL menggunakan pendekatan NLP2SQL yang paling dirasa efektif dan efisien, kemudian menampilkannya dalam bentuk tabel, grafik, maupun jenis representasi tergantung jenis data yang dikembalikan.
+4. Struktur Database:
+
+   a. Peserta menggunakan database MySQL bernama `universitas_lks_2026-04-12.sql` yang terdiri dari empat tabel:
+   - `jabatan_fungsional`: data jabatan akademik dosen.
+   - `fakultas`: data fakultas beserta dekan.
+   - `dosen`: data lengkap dosen termasuk beberapa foto, NIDN, pendidikan terakhir, dan status kepegawaian.
+   - `remunerasi`: data gaji pokok, tunjangan jabatan, tunjangan fungsional, tunjangan kinerja, dan total remunerasi per bulan dan tahun untuk setiap dosen.
+
+   b. Aturan-aturan pembentukan query. Respons dari AI berupa JSON yang memuat field `sql`, dan secara opsional field `chart`, `chartType`, serta `chartTitle` apabila pertanyaan meminta tampilan grafik.
+
+   c. Setelah mendapatkan SQL dari AI, server wajib memvalidasi query tersebut. Peserta dilarang melakukan manipulasi struktur database, dan hanya tabel-tabel yang telah didefinisikan dalam skema yang boleh diakses. Query yang lolos validasi kemudian dieksekusi ke MySQL dan hasilnya dikembalikan ke frontend dalam format JSON.
+
+   d. Seluruh konfigurasi sensitif seperti API key, endpoint, dan kredensial database harus disimpan dalam file `.env`.
+
+## Ketentuan Pengerjaan
+
+1. Peserta mengerjakan secara individu selama 2 hari sesuai waktu lomba. Seluruh kode ditulis sendiri oleh peserta.
+2. Penggunaan AI coding assistant untuk menulis kode secara langsung tidak diperkenankan, namun peserta boleh membaca dokumentasi resmi sesuai teknologi atau metode NLP2SQL yang dipilih peserta.
