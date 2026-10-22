@@ -8,7 +8,7 @@ Namun, untuk mengambil informasi dari database, seseorang harus menggunakan baha
 
 Masalahnya, tidak semua orang memahami cara menulis SQL. Banyak pengguna hanya mengetahui apa yang ingin dicari, tetapi tidak tahu bagaimana membuat perintah SQL yang benar. Akibatnya, mereka harus meminta bantuan programmer atau bagian IT hanya untuk mengambil data sederhana.
 
-Untuk mengatasi masalah tersebut, dikembangkan teknologi **NL2SQL (Natural Language to SQL)**. Teknologi ini memungkinkan pengguna menulis pertanyaan menggunakan bahasa sehari-hari, kemudian sistem AI akan menerjemahkannya menjadi perintah SQL secara otomatis.
+Untuk mengatasi masalah tersebut, dikembangkan teknologi **NLP2SQL (Natural Language Processing to SQL)**. Teknologi ini memungkinkan pengguna menulis pertanyaan menggunakan bahasa sehari-hari, kemudian sistem AI akan menerjemahkannya menjadi perintah SQL secara otomatis.
 
 Sebagai contoh:
 
@@ -21,13 +21,13 @@ Sebagai contoh:
 SELECT * FROM dosen;
 ```
 
-Dengan adanya NL2SQL, proses pengambilan data menjadi lebih mudah, cepat, dan dapat digunakan oleh orang yang tidak memiliki kemampuan pemrograman.
+Dengan adanya NLP2SQL, proses pengambilan data menjadi lebih mudah, cepat, dan dapat digunakan oleh orang yang tidak memiliki kemampuan pemrograman.
 
 ---
 
-## 1.2. Apa Itu NL2SQL?
+## 1.2. Apa Itu NLP2SQL?
 
-**NL2SQL (Natural Language to Structured Query Language)** adalah teknologi yang digunakan untuk mengubah bahasa manusia (bahasa sehari-hari) menjadi bahasa SQL yang dapat dipahami oleh database.
+**NLP2SQL (Natural Language Processing to Structured Query Language)** adalah teknologi yang digunakan untuk mengubah bahasa manusia (bahasa sehari-hari) menjadi bahasa SQL yang dapat dipahami oleh database.
 
 Teknologi ini memanfaatkan **Artificial Intelligence (AI)** atau kecerdasan buatan untuk memahami maksud pertanyaan pengguna.
 
@@ -35,7 +35,7 @@ Teknologi ini memanfaatkan **Artificial Intelligence (AI)** atau kecerdasan buat
 
 | Istilah | Penjelasan |
 |---|---|
-| Natural Language | Bahasa sehari-hari yang biasa digunakan manusia, seperti “Tampilkan semua siswa kelas 10” |
+| Natural Language Processing | Bahasa sehari-hari yang biasa digunakan manusia, seperti “Tampilkan semua siswa kelas 10” |
 | SQL | Bahasa khusus yang digunakan untuk mengakses dan mengelola database |
 
 ### Contoh NL2SQL
@@ -50,9 +50,9 @@ Dengan NL2SQL, pengguna tidak perlu lagi menghafal sintaks SQL karena sistem aka
 
 ---
 
-## 1.3. Manfaat NL2SQL
+## 1.3. Manfaat NLP2SQL
 
-Penggunaan teknologi NL2SQL memiliki banyak manfaat, terutama bagi pengguna yang tidak memahami bahasa pemrograman.
+Penggunaan teknologi NLP2SQL memiliki banyak manfaat, terutama bagi pengguna yang tidak memahami bahasa pemrograman.
 
 | Manfaat | Penjelasan |
 |---|---|
@@ -66,7 +66,7 @@ Penggunaan teknologi NL2SQL memiliki banyak manfaat, terutama bagi pengguna yang
 
 ## 1.4. Teknologi Pendukung
 
-Dalam pembuatan aplikasi NL2SQL ini digunakan beberapa teknologi pendukung sebagai berikut:
+Dalam pembuatan aplikasi NLP2SQL ini digunakan beberapa teknologi pendukung sebagai berikut:
 
 ### 1.4.1. Python
 
