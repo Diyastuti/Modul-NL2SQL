@@ -33,4 +33,3 @@ Sistem ini disebut **NLP-to-SQL**, yaitu sebuah aplikasi web yang mengubah perta
 
 1. Peserta mengerjakan secara individu selama 2 hari sesuai waktu lomba. Seluruh kode ditulis sendiri oleh peserta.
 2. Penggunaan AI coding assistant untuk menulis kode secara langsung tidak diperkenankan, namun peserta boleh membaca dokumentasi resmi sesuai teknologi atau metode NLP2SQL yang dipilih peserta.
-3.
